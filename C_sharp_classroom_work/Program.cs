@@ -8,9 +8,8 @@ using System.Threading.Tasks;
 
 namespace C_sharp_classroom_work
 {
-    internal class Program
-    {
-        delegate void myDel(string text);
+    internal class Program    {
+     
         static string LoadFromFile(string _path)
         {           
             StreamReader sr = new StreamReader(_path);
@@ -42,14 +41,6 @@ namespace C_sharp_classroom_work
              else
                  Console.WriteLine("Нет аргументов командной строки");
 
-                      
-
-            
-
-           
-
-            
-            
 
         }
     }
